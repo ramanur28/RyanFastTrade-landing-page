@@ -1,0 +1,27 @@
+.reviews {
+  background-color: var(--yellow);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.quote {
+  width: 500px;
+  text-align: center;
+  align-self: center;
+}
+
+.quote-feedback {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    height: 200px;
+  }
+  .quote {
+    width: 100%;
+  }
+}

@@ -1,0 +1,83 @@
+.contact {
+  text-align: center;
+  padding: 20px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--black);
+  height: auto;
+}
+
+.contact p,
+.contact-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact .subtitle {
+  font-weight: 400;
+  font-size: 15vw;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.contact-item,
+.tele-link {
+  width: 250px;
+  height: 78px;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--black);
+  border-radius: 10px;
+}
+
+.telegram {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+  background-color: var(--yellow);
+  position: relative;
+  width: 100vw;
+}
+
+.telegram h2 {
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.tele-link {
+  background-color: var(--white);
+}
+
+@media (max-width: 1024px) {
+  .contact .subtitle {
+    font-size: 14vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact .subtitle {
+    font-size: 12vw;
+  }
+
+  .telegram {
+    padding: 25px 50px;
+    gap: 25px;
+  }
+
+  .tele-link {
+    width: 150px;
+    height: 46px;
+  }
+}

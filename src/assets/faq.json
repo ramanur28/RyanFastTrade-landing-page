@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "ask": "what you do?",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, obcaecati. Magni iure esse blanditiis. Iure dignissimos accusantium unde ex excepturi."
+  },
+  {
+    "id": 2,
+    "ask": "what 2",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, obcaecati. Magni iure esse blanditiis. Iure dignissimos accusantium unde ex excepturi."
+  },
+  {
+    "id": 3,
+    "ask": "what 3",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, obcaecati. Magni iure esse blanditiis. Iure dignissimos accusantium unde ex excepturi."
+  },
+  {
+    "id": 4,
+    "ask": "what 4",
+    "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, obcaecati. Magni iure esse blanditiis. Iure dignissimos accusantium unde ex excepturi."
+  }
+]

@@ -1,0 +1,27 @@
+.question {
+  border-bottom: 1px solid var(--white);
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.ask {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.answer {
+  position: relative;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .answer {
+    font-size: 10px;
+  }
+  .ask {
+    font-size: 14px;
+  }
+}
